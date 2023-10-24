@@ -38,7 +38,16 @@ header{
     width: 100%;
 }
 
+/*MAIN*/
+
 .col-33{
     width: calc(100%/3 - 20px);
-    height: 500px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+img{
+    max-width: 100%;
 }
