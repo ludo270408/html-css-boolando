@@ -51,6 +51,12 @@ img{
     max-width:100%;
 }
 
+/*LOGO*/
+.logo{
+    max-width: 150px;
+    align-content: center;
+}
+
 .product{
     position: relative;
 }
@@ -65,14 +71,49 @@ img{
 }
 
 /*HEART CHANGING COLOR*/
+.product:hover .heart{
+    color: red;
+}
 
+.hide{
+    display: none;
+}
 
+.show{
+    display: block;
+}
+
+.product:hover .hide{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
 .bg-red{
     background-color: red;
 }
 
 .heart{
-    color: red;
+    color: black;
     text-align: center;
     position: absolute;
+}
+
+/*COLUMN*/
+.col-15{
+    width: 15%;
+}
+
+.col-70{
+    width: 70%;
+} 
+
+/*HEIGHT*/
+.height-50{
+    height: 10px;
 }
